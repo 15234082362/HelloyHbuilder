@@ -1,0 +1,42 @@
+行距、对齐等：                                               背景属性：                                           透明度:
+line-height    （行高）               background          （缩写形式）               opacity:0-1             
+text-align     （对齐居中）      background-color    （背景色）                     background：rgba(255,0,0,0.5)
+letter-spacing （字符间距）      background-image    （背景图）                         渐变：
+text-decoration（文本修饰）      background-repeat   （背景图重复方式）       background:linear-gradient(45deg,red 50%,green 70%);
+padding        （内边距）          background-position （位置坐标、偏移量）   background:radial-gradient(45deg,red 50%,green 70%);
+//margin         （外边距）          background  (背景色)                      文字/盒阴影：
+float          （浮动效果）      clear：buth；   清除全部浮动                            box-shadow:0px 0px 0px #aa inset;
+
+border  虚线-dashed  实线-solid（边框，需设置颜色宽度虚实线）
+text-decoration ：underline 添加下划线 ； none 去掉下划线   (下划线) 
+:hover (悬停)  :active(点击中)  :visited(访问后) 
+
+transition: all 1s (过渡)属性+时间
+transform:translate(x,y)位移 
+transform:rotateY/X(45deg)旋转
+transform:origin(x,y)旋转点
+transform:scale(1)放大缩小
+transform:skewY/X(45deg)倾斜
+
+display: none (隐藏) 
+
+一 、行元素没有宽高
+二 、 块元素中的内容如果是行元素  
+水平居中    text-align :center;
+垂直居中    line_hight : 块元素的高；
+三 、 块元素中的内容如果是块元素 
+水平居中   margin : 0 aotu;
+垂直居中   line_hight : 块元素的高；
+四、 float: right  浮动 是为了让行元素同行显示  ，让块元素调整位置
+七、display： block ;  让行元素具有块元素的属性， 宽高   换行  属性
+   display： inline-block ;让行元素具有块元素的属性 ,只有宽高属性
+八    块元素中的内容如果是块元素居中， 但是有2个以上, 用定位
+   1、position: relative;  相对定位， 以自身位置动，不脱离文档流
+   2、position: absolute;   绝对定位， 脱离文档流，以他距离最近的容器动
+ ，前提外围容器  ，必须具有定位属性  ，否则他以body的位置动
+  3、    position: fixed; 固定位置   需要这个元素有定位
+   
+各类样式的优先级
+由左往右“近者优先”原则
+浏览器默认设置→外部样式表→内部样式表→行内样式表
+ID选择器→类选择器→标签选择器

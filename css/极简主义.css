@@ -1,0 +1,277 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#top {
+	width: 100%;
+	height: 80px;
+}
+
+#topImg {
+	width: 150px;
+	height: 60px;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+#topRight {
+	float: right;
+	line-height: 80px;
+	margin-right: 120px;
+}
+#topRightNav{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	bottom: 10px;
+	right: 10px;
+}
+
+li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.top_font {
+	font-size: 15px;
+}
+
+#main {
+	width: 100%;
+	height: 775px;
+	background: url(../images/banner1-效果.png);
+}
+#mainleftArrow{
+	float: left;
+	line-height: 775px;
+	position: relative;
+	left: 10px;
+}
+#mainrightArrow{
+	float: right;
+	line-height: 775px;
+	position: relative;
+	left: 650px;
+}
+
+#mainBackgroud {
+	width: 100%;
+	height: 765px;
+}
+
+#mainOne {
+	width: 75%;
+	margin: 20px auto;
+}
+
+#mainOneleft {
+	width: 25%;
+	height: 280px;
+	float: left;
+}
+
+.mainFontMedium {
+	font-size: 12px;
+}
+
+.mainFontBig {
+	font-size: 25px;
+}
+
+.mainFontSmall {
+	font-size: 5px;
+}
+
+.mainFontRed {
+	font-size: 12px;
+	color: red;
+}
+#line{
+	float: left;
+	width: 200px;
+	height: 2px;
+}
+#line hr{
+	float: left;
+	width: 30px;
+	margin-left:30px ;
+	border:1px solid #000000
+}
+#line hr:hover{
+	border:1px solid gray;
+}
+#mainOneCenter {
+	width: 45%;
+	height: 280px;
+	float: left;
+}
+
+#mainOneCenterImg {
+	width: 70%;
+	height: 100%;
+	float: left;
+	margin-left: 130px;
+}
+
+#mainOneRight {
+	width: 25%;
+	height: 280px;
+	float: left;
+	margin-left: 20px;
+	font-size: 10px;
+}
+
+#mainOneRight div span {
+	display: inline-block;
+	float: right;
+}
+
+#mainOneline {
+	float: left;
+	margin-left: 500px;
+	margin-top: 20px;
+}
+
+#mainOneline button {
+	background-color: white;
+	border: #333333 solid 1px;
+	font-size: 15px;
+}
+
+#mainTwo {
+	width: 70%;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 400px;
+}
+
+#mainTwoLeft {
+	width: 20%;
+	float: left;
+}
+
+#mainTwoRight {
+	width: 50%;
+	float: right;
+}
+
+#mainTwoRight img {
+	width: 60%;
+	height: 370px;
+	margin-left: 100px;
+	float: right;
+}
+
+#mainTwoLeft button {
+	background-color: white;
+	border: #333333 solid 1px;
+	font-size: 15px;
+}
+
+#mainThree {
+	width: 70%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#mainThreeBackgroud {
+	float: left;
+	width: 300px;
+	height: 300px;
+	border: solid 1px;
+	margin-left: 200px;
+}
+
+#mainThreeImg img {
+	width: 450px;
+	height: 290px;
+}
+
+#mainThreeImg {
+	float: left;
+	width: 450px;
+	height: 290px;
+	position: relative;
+	right: 100px;
+}
+#mainThreeLeft{
+	width: 800px;
+	height: 300px;
+	float: left;
+}
+#leftArrow{
+	float: left;
+	position: relative;
+	right: 900px;
+	top: 120px;
+}
+#rightArrow{
+	
+	float: right;
+	position: relative;
+	right: 500px;
+	top: 120px;
+}
+
+#mainThreeRight {
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+
+#waikuang {
+	width: 80px;
+	height: 50px;
+	border: solid 1px;
+	float: right;
+	padding-left: 20px;
+}
+ 
+.mainTreeGray  {
+	font-size: 5px;
+	color: gainsboro;
+}
+
+#bottom {
+	width: 1400px;
+	height: 400px;
+	margin-left: 200px;
+}
+#bottomOne {
+	width: 320px;
+	height: 480px;
+	margin-left: 300px;
+	float: left;
+	text-align: center;
+}
+#bottomTwo {
+	width: 320px;
+	height: 480px;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+}
+#bottomThree {
+	width: 320px;
+	height: 480px;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+}
+
+#bottomOne img:hover {
+width: 350px;
+
+}
+
+#bottonTwo img:hover {
+width: 350px;
+
+}
+
+#bottomThree img:hover {
+width: 350px;
+
+}
